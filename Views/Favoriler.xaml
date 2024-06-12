@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.Favoriler"
+             Title="Favoriler"
+             Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions=".1*,.9*">
+        <!-- Arka plan resmi -->
+        <Image Source="favoriler_bg.png" Aspect="AspectFill" Opacity="0.5" Grid.RowSpan="2" />
+
+        <Grid Grid.Row="0" ColumnDefinitions=".2*,.6*,.2*" BackgroundColor="#ffb3ba">
+            <Grid Grid.Column="0" RowDefinitions=".3*,.3*,.3*">
+                <ImageButton
+                    Source="left.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    HeightRequest="30"
+                    WidthRequest="30"
+                    Margin="10"
+                    Clicked="ImageButton_Clicked"
+                    Grid.Row="1"/>
+            </Grid>
+            <Grid Grid.Column="1" RowDefinitions=".2*,.6*,.2*">
+                <Label
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Grid.Row="1"
+                    Text="Favorilerim / Mutfağım"
+                    FontSize="Medium"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="10,30,10,30"
+                CornerRadius="30,30,30,30"
+                Fill="White"
+                Opacity=".6"/>
+            <VerticalStackLayout Margin="0,50,0,0" HorizontalOptions="Center">
+                <CollectionView ItemsSource="{Binding FavoriYemekler}" SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Button
+                                    Grid.Column="1"
+                                    Text="{Binding Name}"
+                                    BackgroundColor="LightCoral"
+                                    WidthRequest="315"
+                                    FontSize="18"
+                                    FontAttributes="Bold"
+                                    Clicked="OnRecipeButtonClicked"
+                                    CommandParameter="{Binding .}"
+                                    Margin="5"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

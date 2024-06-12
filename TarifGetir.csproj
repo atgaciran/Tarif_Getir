@@ -1,0 +1,207 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0-ios;net8.0-maccatalyst;net8.0-android34.0</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
+
+		<!-- Note for MacCatalyst:
+		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
+		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
+		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
+		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
+		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
+
+		<OutputType>Exe</OutputType>
+		<RootNamespace>TarifGetir</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Display name -->
+		<ApplicationTitle>Tarif Getir</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.tarifgetir</ApplicationId>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android34.0|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#f4c2c2" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#f4c2c2" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Color.cs" />
+	  <Compile Remove="NewPage1.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="NewPage1.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\alinazik.png" />
+	  <None Remove="Resources\Images\biber_dolmasi.png" />
+	  <None Remove="Resources\Images\ispanakli_kis.webp" />
+	  <None Remove="Resources\Images\malzeme2bg.png" />
+	  <None Remove="Resources\Images\malzemebg.png" />
+	  <None Remove="Resources\Images\tatlibg.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="7.1.2" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\GirişYap.xaml.cs">
+	    <DependentUpon>GirişYap.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\SifreDegistir.xaml.cs">
+	    <DependentUpon>SifreDegistir.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\TarifGetirTatli.xaml.cs">
+	    <DependentUpon>TarifGetirTatli.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Ayarlar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Favoriler.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="GirişSayfası.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Hesabım.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="KisiselBilgiler.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="KişiselBilgiler.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TarifGetir.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Tarifler.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TarifGetirDetay.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TarifGetirSonuc.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GirişYap.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HesapOluştur.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\SifreDegistir.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TarifGetirTatli.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TarifGetirYemek.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\YiyecekListesiPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\Ana_Yemek\bosnak_boregi.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\cokertme_kebabi.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\domates_soslu_makarna.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\etli_fajita.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\firinda_makarna.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\hunkar_begendi.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\ispanakli_kis.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\kabak_mucver.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\kabartma_tozlu_pogaca.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\kalburabasti.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\karniyarik.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\kasarli_mantar_sote.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\kumpir.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\manti.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\mayali_pogaca.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\mercimekli_borek.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\nohut_yemegi.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\ozbek_pilavi.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\patatesli_gul_boregi.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\peynirli_eriste.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\pizza.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\sucuklu_kuru_fasulye.jpg" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\tavuklu_kremali_makarna.png" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\yaglama.webp" />
+	  <MauiImage Include="Resources\Images\Corba\domates_corbasi.webp" />
+	  <MauiImage Include="Resources\Images\Corba\eristeli_yesil_mercimek_corbasi.webp" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\alinazik.png" />
+	  <MauiImage Include="Resources\Images\Ana_Yemek\biber_dolmasi.png" />
+	  <MauiImage Include="Resources\Images\Corba\lebeniye_corbasi.webp" />
+	  <MauiImage Include="Resources\Images\Corba\mercimek_corbasi.webp" />
+	  <MauiImage Include="Resources\Images\Corba\yogurt_corbasi.webp" />
+	  <MauiImage Include="Resources\Images\Salata\cacik.jpeg" />
+	  <MauiImage Include="Resources\Images\Salata\havuc_tarator.jpg" />
+	  <MauiImage Include="Resources\Images\Salata\koz_patlican.jpg" />
+	  <MauiImage Include="Resources\Images\Salata\mercimek_koftesi.webp" />
+	  <MauiImage Include="Resources\Images\Salata\tavuklu_sezar_salata.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\baklava.jpeg" />
+	  <MauiImage Include="Resources\Images\Tatli\biskuvili_pasta.jpeg" />
+	  <MauiImage Include="Resources\Images\Tatli\brownie.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\cikolatali_mus.jpg" />
+	  <MauiImage Include="Resources\Images\Tatli\cilekli_tart.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\elmali_kurabiye.jpeg" />
+	  <MauiImage Include="Resources\Images\Tatli\islak_kek.jpg" />
+	  <MauiImage Include="Resources\Images\Tatli\limonlu_cheesecake.jpeg" />
+	  <MauiImage Include="Resources\Images\Tatli\mozaikpasta.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\muzlu_rulo_pasta.jpg" />
+	  <MauiImage Include="Resources\Images\Tatli\portakalli_kek.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\revani.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\sufle.webp" />
+	  <MauiImage Include="Resources\Images\Tatli\waffle.jpeg" />
+	</ItemGroup>
+
+</Project>

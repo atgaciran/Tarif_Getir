@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.HesapOluştur"
+             Title="HesapOluştur">
+    <Grid RowDefinitions=".2*,.8*">
+
+        <Image Source="anaekranust.png"
+               Aspect="AspectFill"
+               Grid.Row="0"/>
+        <Grid 
+            BackgroundColor="#f4c2c2" 
+            Opacity=".5"
+            Grid.Row="0"/>
+
+        <Grid ColumnDefinitions=".5*,.3*,.2*">
+            <Image Grid.Column="0"
+                   Source="cooking.png"
+                   Aspect="AspectFit"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Center"/>
+            <Grid Grid.Column="1" RowDefinitions="*,*" HorizontalOptions="Center">
+                <Label Text="TARİF"
+                       FontSize="36"
+                       Grid.Row="0"
+                       VerticalOptions="End"/>
+                <Label Text="GETİR"
+                       FontSize="36"
+                       Grid.Row="1"/>
+            </Grid>
+        </Grid>
+
+        <Image Aspect="AspectFill"
+               Source="anaekranresim.png"
+               VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand"
+               Grid.Row="1"/>
+        <Grid BackgroundColor="#f4c2c2" 
+              Opacity=".2"
+              Grid.Row="1"/>
+
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="10,30,10,30"
+                            CornerRadius="30,30,30,30"
+                            Fill="White"
+                            Opacity=".6"/>
+            <VerticalStackLayout Margin="30,0,30,0">
+                <Label FontAttributes="Bold"
+                       FontFamily="OpenSansSemibold"
+                       FontSize="17"
+                       Text="Mutfağına çeşitlilik katmaya hoş geldin!"
+                       TextColor="#2d2d2d"
+                       Padding="0,50,0,0"/>
+                <Label FontFamily="OpenSansRegular"
+                       Text="Kayıt olmak için boşlukları doldurun."
+                       TextColor="Black"/>
+
+                <Grid Margin="0,20,0,0">
+                    <ImageButton Source="left.png"
+                                 HorizontalOptions="Start"
+                                 HeightRequest="30"
+                                 WidthRequest="30"
+                                 Clicked="ImageButton_Clicked"/>
+                </Grid>
+
+                <Grid Margin="0,30,0,0" ColumnDefinitions="*,*">
+                    
+                    <Entry x:Name="NameEntry" Grid.Column="0" Placeholder="Ad" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+               
+                    <Entry x:Name="LastNameEntry" Grid.Column="1" Placeholder="Soyad" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+                </Grid>
+
+                <Grid Margin="0,30,0,0" ColumnDefinitions=".2*,.8*">
+                    <RoundRectangle BackgroundColor="#f4c2c2" 
+                                    CornerRadius="10"
+                                    HeightRequest="50"
+                                    WidthRequest="50"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"/>
+                    <Image HorizontalOptions="Center"
+                           Source="people.png"
+                           HeightRequest="30"
+                           WidthRequest="30"/>
+                    <Entry x:Name="UsernameEntry" Grid.Column="1" Placeholder="Kullanıcı Adı" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+                </Grid>
+
+                <Grid Margin="0,30,0,0" ColumnDefinitions=".2*,.8*">
+                    <RoundRectangle BackgroundColor="#f4c2c2" 
+                                    CornerRadius="10"
+                                    HeightRequest="50"
+                                    WidthRequest="50"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"/>
+                    <Image HorizontalOptions="Center"
+                           Source="key.png"
+                           HeightRequest="30"
+                           WidthRequest="30"/>
+                    <Entry x:Name="PasswordEntry" Grid.Column="1" Placeholder="Şifre" PlaceholderColor="#2d2d2d" IsPassword="True" Text="" VerticalOptions="Center"/>
+                </Grid>
+
+                <Button Margin="0,20,0,0"
+                        BackgroundColor="#f0afaf"
+                        HeightRequest="40"
+                        WidthRequest="125"
+                        Text="Hesap Oluştur"
+                        TextColor="Black"
+                        Clicked="Button_Clicked"/>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

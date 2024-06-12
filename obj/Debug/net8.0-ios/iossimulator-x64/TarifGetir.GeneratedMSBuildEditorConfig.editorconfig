@@ -1,0 +1,95 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TarifGetir
+build_property.ProjectDir = C:\Users\Tolga\Desktop\TarifGetir1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Tolga/Desktop/TarifGetir1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/Ayarlar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.Ayarlar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Ayarlar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Ayarlar.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/Favoriler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.Favoriler.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Favoriler.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Favoriler.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/GirişYap.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.GirişYap.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GirişYap.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GirişYap.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/Hesabım.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.Hesabım.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Hesabım.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Hesabım.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/HesapOluştur.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.HesapOluştur.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HesapOluştur.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HesapOluştur.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/KisiselBilgiler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.KisiselBilgiler.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\KisiselBilgiler.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\KisiselBilgiler.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/SifreDegistir.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.SifreDegistir.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SifreDegistir.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SifreDegistir.xaml
+
+[C:/Users/Tolga/Desktop/TarifGetir1/Views/SifreUnuttum.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TarifGetir.Views.SifreUnuttum.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SifreUnuttum.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SifreUnuttum.xaml

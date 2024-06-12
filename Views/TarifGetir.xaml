@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.TarifGetir"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
+             Title="TarifGetir">
+    <Grid >
+        <!-- Arka plan resmi -->
+        <Image Source="arka_plan_13.png" Aspect="AspectFill" Opacity="0.7"/>
+
+        <!-- İçerik -->
+
+        <ScrollView>
+            <StackLayout Padding="20">
+                <!-- Hoş geldiniz mesajı çerçeve içinde -->
+                <Frame BorderColor="#ff85d9" CornerRadius="10" Padding="10" BackgroundColor="#ff85d9" Margin="0,70,0,0">
+                    <Label Text="Tarif Getir'e Hoş Geldiniz!"         
+                        FontSize="24"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Frame>
+
+                <Grid HorizontalOptions="Center">
+                    <skia:SKLottieView HeightRequest="200"
+                                       RepeatCount="-1"
+                                       Source="Animation.json"/>
+                </Grid>
+
+                <!-- Ne yapmak istersiniz mesajı -->
+                <Label Text="Ne yapmak istersiniz?"
+                    FontSize="24"
+                    HorizontalOptions="Center"
+                    Margin="0,10"/>
+
+                <!-- Yemek butonu -->
+
+                <Button Text="YEMEK"
+                    FontSize="Large"
+                    BackgroundColor="White"
+                    TextColor="#ff85d9"
+                    Clicked="Button_Clicked"
+                    FontAttributes="Bold"
+                    CornerRadius="40"
+                    Margin="0,15"/>
+
+                <!-- Tatlı butonu -->
+                <Button Text="TATLI"
+                    FontSize="Large"
+                    BackgroundColor="White"
+                    TextColor="#ff85d9"
+                    Clicked="Button_Clicked_1"
+                    FontAttributes="Bold"
+                    CornerRadius="40"
+                    Margin="0,15"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

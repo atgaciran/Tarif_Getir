@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.ŞifreDeğiştir"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="LavenderBlush"
+             >
+             
+    <Grid RowDefinitions=".1*,.9*">
+
+        <!-- Arka plan resmi -->
+        <Image Source="ayarlar_bg.png" Aspect="AspectFill" Opacity="0.5" Grid.RowSpan="2" />
+
+        <Grid Grid.Row="0" ColumnDefinitions=".2*,.6*,.2*" BackgroundColor="#ffb3ba" >
+
+            <Grid Grid.Column="0" RowDefinitions=".3*,.3*,.3*">
+
+                <ImageButton
+
+    Source="left.png"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    HeightRequest="30"
+    WidthRequest="30"
+    Margin="10"
+    Clicked="ImageButton_Clicked"
+    Grid.Row="1"/>
+
+
+            </Grid>
+
+            <Grid Grid.Column="1" RowDefinitions=".2*,.6*,.2*">
+                <Label
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    Grid.Row="1"
+    Text="Şifre Değiştir"
+    FontSize="Medium"
+         />
+
+            </Grid>
+
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="10,30,10,30"
+             CornerRadius="30,30,30,30"
+             Fill="White"
+             Opacity=".6"/>
+            <VerticalStackLayout Margin="30,0,30,0">
+
+                
+
+                <Label FontFamily="OpenSansRegular"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+        Text="Şifrenizi değiştirmek için boşlukları doldurun."
+        TextColor="Black"
+                       Padding="0,50,0,0"/>
+
+                <Grid ColumnDefinitions="*,*">
+                    <Grid Margin="0,20,0,0" Grid.Column="0" >
+                        <Entry x:Name="NameEntry"  Placeholder="Ad" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+
+                    </Grid>
+
+                    <Grid Margin="0,20,0,0" Grid.Column="1" >
+
+                        <Entry x:Name="LastNameEntry"  Placeholder="Soyad" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+
+                    </Grid>
+
+                </Grid>
+
+                <Grid Margin="0,20,0,0">
+
+                    <Entry x:Name="UserNameEntry" Grid.Column="1" Placeholder="Kullanıcı Adı" PlaceholderColor="#2d2d2d" Text="" VerticalOptions="Center"/>
+
+                </Grid>
+
+                <Grid Margin="0,20,0,0" ColumnDefinitions=".2*,.8*">
+
+                    <RoundRectangle BackgroundColor="#f4c2c2" 
+                                    CornerRadius="10"
+                                    HeightRequest="50"
+                                    WidthRequest="50"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"/>
+                    <Image HorizontalOptions="Center"
+                            Source="key.png"
+                            HeightRequest="30"
+                            WidthRequest="30"
+        />
+                    <Entry x:Name="NewPasswordEntry" Grid.Column="1" Placeholder="Yeni Şifre" PlaceholderColor="#2d2d2d" IsPassword="False" Text="" VerticalOptions="Center"/>
+
+                </Grid>
+
+                <Button Margin="0,20,0,0"
+                        BackgroundColor="#f0afaf"
+                        HeightRequest="40"
+                        WidthRequest="130"
+                        Text="Şifre Değiştir"
+                        TextColor="Black"
+                        Clicked="Button_Clicked"
+                        />
+                
+            </VerticalStackLayout>
+            
+        </Grid>
+        
+    </Grid>
+    
+</ContentPage>

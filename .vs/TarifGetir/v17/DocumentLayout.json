@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\yiyeceklistesipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\yiyeceklistesipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\yiyeceklistesipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\yiyeceklistesipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetirdetay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetirdetay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetirdetay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetirdetay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\favoriler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\favoriler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\hesab\u0131m.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\hesab\u0131m.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\hesapolu\u015Ftur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\hesapolu\u015Ftur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\sifredegistir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\sifredegistir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\kisiselbilgiler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\kisiselbilgiler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetirtatli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetirtatli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetiryemek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetiryemek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetiryemek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetiryemek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetirsonuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetirsonuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetir.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifdetay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifdetay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\sifreunuttum.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\sifreunuttum.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\giri\u015Fyap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\giri\u015Fyap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\ayarlar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\ayarlar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\ayarlar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\ayarlar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\viewmodels\\yiyeceklistelemeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:viewmodels\\yiyeceklistelemeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\viewmodels\\yiyecekdetayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:viewmodels\\yiyecekdetayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\viewmodels\\kisiselbilgilerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:viewmodels\\kisiselbilgilerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\views\\tarifgetirsonuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:views\\tarifgetirsonuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|c:\\users\\tolga\\desktop\\tarif getir\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3EF763-B7DE-400C-B540-7D5FB38D61A8}|TarifGetir.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:56:36.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YiyecekListesiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\YiyecekListesiPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\YiyecekListesiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\YiyecekListesiPage.xaml.cs",
+              "RelativeToolTip": "Views\\YiyecekListesiPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:41:57.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HesapOlu\u015Ftur.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\HesapOlu\u015Ftur.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HesapOlu\u015Ftur.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\HesapOlu\u015Ftur.xaml.cs",
+              "RelativeToolTip": "Views\\HesapOlu\u015Ftur.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:53.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hesab\u0131m.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Hesab\u0131m.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Hesab\u0131m.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Hesab\u0131m.xaml.cs",
+              "RelativeToolTip": "Views\\Hesab\u0131m.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:49.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Favoriler.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Favoriler.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Favoriler.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Favoriler.xaml.cs",
+              "RelativeToolTip": "Views\\Favoriler.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:43.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarifGetirDetay.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirDetay.xaml",
+              "RelativeDocumentMoniker": "Views\\TarifGetirDetay.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirDetay.xaml",
+              "RelativeToolTip": "Views\\TarifGetirDetay.xaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:39:09.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarifGetirDetay.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirDetay.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifGetirDetay.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirDetay.xaml.cs",
+              "RelativeToolTip": "Views\\TarifGetirDetay.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA5wC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:22.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YiyecekListesiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\YiyecekListesiPage.xaml",
+              "RelativeDocumentMoniker": "Views\\YiyecekListesiPage.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\YiyecekListesiPage.xaml",
+              "RelativeToolTip": "Views\\YiyecekListesiPage.xaml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:39:04.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SifreDegistir.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\SifreDegistir.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SifreDegistir.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\SifreDegistir.xaml.cs",
+              "RelativeToolTip": "Views\\SifreDegistir.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:00.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:38:03.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KisiselBilgiler.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\KisiselBilgiler.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\KisiselBilgiler.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\KisiselBilgiler.xaml.cs",
+              "RelativeToolTip": "Views\\KisiselBilgiler.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:56.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TarifGetirTatli.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirTatli.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifGetirTatli.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirTatli.xaml.cs",
+              "RelativeToolTip": "Views\\TarifGetirTatli.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:42.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TarifGetirYemek.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirYemek.xaml",
+              "RelativeDocumentMoniker": "Views\\TarifGetirYemek.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirYemek.xaml",
+              "RelativeToolTip": "Views\\TarifGetirYemek.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:41:05.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TarifGetirYemek.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirYemek.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifGetirYemek.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirYemek.xaml.cs",
+              "RelativeToolTip": "Views\\TarifGetirYemek.xaml.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:53.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TarifGetirSonuc.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirSonuc.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifGetirSonuc.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirSonuc.xaml.cs",
+              "RelativeToolTip": "Views\\TarifGetirSonuc.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:27.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TarifGetir.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetir.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifGetir.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetir.xaml.cs",
+              "RelativeToolTip": "Views\\TarifGetir.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:16.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TarifDetay.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifDetay.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TarifDetay.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifDetay.xaml.cs",
+              "RelativeToolTip": "Views\\TarifDetay.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:12.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SifreUnuttum.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\SifreUnuttum.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SifreUnuttum.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\SifreUnuttum.xaml.cs",
+              "RelativeToolTip": "Views\\SifreUnuttum.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:08.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Giri\u015FYap.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Giri\u015FYap.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Giri\u015FYap.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Giri\u015FYap.xaml.cs",
+              "RelativeToolTip": "Views\\Giri\u015FYap.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Ayarlar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Ayarlar.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Ayarlar.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Ayarlar.xaml.cs",
+              "RelativeToolTip": "Views\\Ayarlar.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:39.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ayarlar.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Ayarlar.xaml",
+              "RelativeDocumentMoniker": "Views\\Ayarlar.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\Ayarlar.xaml",
+              "RelativeToolTip": "Views\\Ayarlar.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:39:37.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "YiyecekListelemeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\YiyecekListelemeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\YiyecekListelemeViewModel.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\YiyecekListelemeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\YiyecekListelemeViewModel.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:34.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "YiyecekDetayViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\YiyecekDetayViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\YiyecekDetayViewModel.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\YiyecekDetayViewModel.cs",
+              "RelativeToolTip": "ViewModels\\YiyecekDetayViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:32.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KisiselBilgilerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\KisiselBilgilerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\KisiselBilgilerViewModel.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\KisiselBilgilerViewModel.cs",
+              "RelativeToolTip": "ViewModels\\KisiselBilgilerViewModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:29.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:39:28.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TarifGetirSonuc.xaml",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirSonuc.xaml",
+              "RelativeDocumentMoniker": "Views\\TarifGetirSonuc.xaml",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\Views\\TarifGetirSonuc.xaml",
+              "RelativeToolTip": "Views\\TarifGetirSonuc.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-12T07:39:05.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Tolga\\Desktop\\Tarif Getir\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:38:09.407Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

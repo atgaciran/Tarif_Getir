@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TarifGetir.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TarifGetir.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="TarifGetir"
+    Shell.NavBarIsVisible="False">
+
+    <TabBar>
+
+        <Tab Title="Tarifler" Icon="menu.png">
+            <ShellContent
+                Title="Tarifler"
+                ContentTemplate="{DataTemplate local:Tarifler}"
+                Route="Tarifler" />
+        </Tab>
+
+        <Tab Title="Tarif Getir" Icon="cooking.png">
+            <ShellContent
+                Title="Tarif Getir"
+                ContentTemplate="{DataTemplate local:TarifGetir}"
+                Route="TarifGetir" />
+        </Tab>
+
+        <Tab Title="Hesabım" Icon="skills.png">
+            <ShellContent
+                Title="Hesabım"
+                ContentTemplate="{DataTemplate local:Hesabım}"
+                Route="Hesabım" />
+        </Tab>
+
+    </TabBar>
+
+    <ShellContent
+        Title="Kişisel Bilgiler"
+        ContentTemplate="{DataTemplate local:KisiselBilgiler}"
+        Route="KisiselBilgiler" />
+
+    <ShellContent
+        Title="Favoriler"
+        ContentTemplate="{DataTemplate local:Favoriler}"
+        Route="Favoriler" />
+    <ShellContent Title="Tarif Detay" ContentTemplate="{DataTemplate local:TarifGetirDetay}" Route="TarifGetirDetay"/>
+
+</Shell>

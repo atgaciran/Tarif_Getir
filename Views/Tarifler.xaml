@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.Tarifler"
+             Title="Tarifler"
+             BackgroundColor="LavenderBlush">
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="3.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Ana Yemekler butonu -->
+        <Frame Grid.Row="0" Grid.ColumnSpan="3" BackgroundColor="#ffb3ba" Padding="0" CornerRadius="10">
+            <Grid>
+                <Image Source="Resources/Images/ana_yemekler_bg.png" Aspect="AspectFill" Opacity="0.5"/>
+                <Label Text="Ana Yemekler" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Button BackgroundColor="Transparent" Clicked="Button_Clicked" CommandParameter="1"/>
+            </Grid>
+        </Frame>
+
+        <!-- Boşluk -->
+        <BoxView Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="20" BackgroundColor="Transparent"/>
+
+        <!-- Çorba butonu -->
+        <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="#ffb3ba" Padding="0" CornerRadius="10">
+            <Grid>
+                <Image Source="Resources/Images/corba_bg.png" Aspect="AspectFill" Opacity="0.5"/>
+                <Label Text="Çorba" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Button BackgroundColor="Transparent" Clicked="Button_Clicked" CommandParameter="2"/>
+            </Grid>
+        </Frame>
+
+        <!-- Boşluk -->
+        <BoxView Grid.Row="2" Grid.Column="1" WidthRequest="5" BackgroundColor="Transparent"/>
+
+        <!-- Salata butonu -->
+        <Frame Grid.Row="2" Grid.Column="2" BackgroundColor="#ffb3ba" Padding="0" CornerRadius="10">
+            <Grid>
+                <Image Source="Resources/Images/salata_bg.png" Aspect="AspectFill" Opacity="0.5"/>
+                <Label Text="Salata" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Button BackgroundColor="Transparent" Clicked="Button_Clicked" CommandParameter="3"/>
+            </Grid>
+        </Frame>
+
+        <!-- Boşluk -->
+        <BoxView Grid.Row="3" Grid.ColumnSpan="3" HeightRequest="20" BackgroundColor="Transparent"/>
+
+        <!-- Tatlı butonu -->
+        <Frame Grid.Row="4" Grid.ColumnSpan="3" BackgroundColor="#ffb3ba" Padding="0" CornerRadius="10">
+            <Grid>
+                <Image Source="Resources/Images/tatli_bg.png" Aspect="AspectFill" Opacity="0.5"/>
+                <Label Text="Tatlı" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" TextColor="White"/>
+                <Button BackgroundColor="Transparent" Clicked="Button_Clicked" CommandParameter="4"/>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

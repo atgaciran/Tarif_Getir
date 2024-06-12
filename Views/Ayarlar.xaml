@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Ayarlar"
+             Title="Ayarlar"
+             Shell.NavBarIsVisible="False"
+             >
+    <Grid RowDefinitions=".1*,.9* ">
+
+        <!-- Arka plan resmi -->
+        <Image Source="ayarlar_bg.png" Aspect="AspectFill" Opacity="0.5" Grid.RowSpan="2" />
+
+        <Grid Grid.Row="0" ColumnDefinitions=".2*,.6*,.2*" BackgroundColor="#ffb3ba" >
+
+            <Grid Grid.Column="0" RowDefinitions=".3*,.3*,.3*">
+
+                <ImageButton
+
+                    Source="left.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    HeightRequest="30"
+                    WidthRequest="30"
+                    Margin="10"
+                    Clicked="ImageButton_Clicked"
+                    Grid.Row="1"/>
+
+            </Grid>
+
+            <Grid Grid.Column="1" RowDefinitions=".2*,.6*,.2*">
+                <Label
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Text="Ayarlar"
+                FontSize="Medium"
+                     />
+
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Row="1" >
+
+
+                <RoundRectangle Margin="10,30,10,30"
+                                CornerRadius="30,30,30,30"
+                                Fill="White"
+                                Opacity=".6"/>
+
+                <VerticalStackLayout Margin="30,20,30,0">
+
+                <Grid Margin="0,30,0,0" ColumnDefinitions=".2*,.8*">
+
+                    <RoundRectangle BackgroundColor="#f4c2c2" 
+                            CornerRadius="10"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+
+                    <Image 
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Source="key.png"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                />
+
+                    <Button 
+
+                             BackgroundColor="LightCoral"
+                             Grid.Column="1"
+                             Grid.Row="0"
+                             Text="Şifre Değiştir" 
+                             WidthRequest="225"
+                             FontSize="18"
+                             FontAttributes="Bold"
+                             Clicked="Button_Clicked"/>
+
+                </Grid>
+
+            </VerticalStackLayout>
+
+            </Grid>
+
+        </Grid>
+
+</ContentPage>

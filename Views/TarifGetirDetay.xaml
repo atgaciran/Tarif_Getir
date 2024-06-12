@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.TarifGetirDetay"
+             xmlns:m="clr-namespace:TarifGetir.Models"
+             x:DataType="m:Yiyecek"
+             Title="TarifGetirDetay">
+    
+    <Grid RowDefinitions=".1*,.9*">
+
+        <Grid Grid.Row="0" ColumnDefinitions=".2*,.6*,.2*" BackgroundColor="#ffb3ba" >
+
+            <Grid Grid.Column="0" RowDefinitions=".3*,.3*,.3*">
+
+                <ImageButton
+                Source="left.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                HeightRequest="30"
+                WidthRequest="30"
+                Margin="10"
+                Clicked="ImageButton_Clicked"
+                Grid.Row="1"/>      
+
+            </Grid>
+
+            <Grid Grid.Column="1" RowDefinitions=".2*,.6*,.2*">
+                
+                <Label
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Text="{Binding Name}"
+                FontSize="Medium"/>     
+
+            </Grid>
+
+            <Grid Grid.Column="2">
+
+                <ImageButton Source="bookmark.png"
+                             x:Name="FavoriteButton"
+                              VerticalOptions="Center"
+                              HorizontalOptions="Center"
+                              HeightRequest="30"
+                              WidthRequest="30"
+                              Clicked="FavoriyeEkleCikar"/>
+
+            </Grid>
+
+
+        </Grid>
+
+        <!--<Grid Grid.Row="1" ColumnDefinitions=".5*, .5*">
+
+            <CollectionView Grid.Column="0" SelectionMode="None"
+            ItemsSource="{Binding MatchingIngredients}"
+            BackgroundColor="Green"
+            Margin="10">      
+            </CollectionView>
+
+            <CollectionView Grid.Column="1" SelectionMode="None"
+            ItemsSource="{Binding MissingIngredients}"
+            BackgroundColor="Red"
+            Margin="10">  
+            </CollectionView>
+
+        </Grid>-->
+
+
+        <StackLayout Grid.Row="1" BackgroundColor="LavenderBlush">
+            <ScrollView VerticalOptions="FillAndExpand">
+
+
+
+                <Grid RowDefinitions=".9*,35,Auto,Auto,35,Auto">
+                    <Image Source="{Binding Resim}"
+                           Grid.Row="0"
+                           Aspect="AspectFill"
+                           Margin="10"/>
+
+                    <Label Text="Malzemeler"
+                           Margin="10,0,0,0"
+                           FontSize="20"
+                           Grid.Row="1"/>
+
+                    <CollectionView Grid.Row="2" SelectionMode="None"
+                              ItemsSource="{Binding TarifMalzemeListesi}"
+                              Margin="10,0,0,10"
+                            >
+
+                    </CollectionView>
+
+                   
+
+                    <Grid Grid.Row="3" ColumnDefinitions=".5*, .5*" RowDefinitions="Auto,Auto">
+
+
+                        <Label Text="Bulunan Malzemeler"
+                               Grid.Row="0"
+                               Grid.Column="0"
+                               FontSize="18"
+                               HorizontalOptions="Center"/>
+
+                        <Label Text="Eksik Malzemeler"
+                               Grid.Row="0"
+                               Grid.Column="1"
+                               FontSize="18"
+                               HorizontalOptions="Center"/>
+
+
+                        <CollectionView Grid.Column="0" 
+                                        Grid.Row="1"
+                                        SelectionMode="None"
+                                        ItemsSource="{Binding MatchingIngredients}"
+                                        BackgroundColor="#76cf76"
+                                        Margin="10"
+                                        >
+                        </CollectionView>
+
+                        <CollectionView Grid.Column="1" 
+                                        Grid.Row="1"
+                                        SelectionMode="None"
+                                        ItemsSource="{Binding MissingIngredients}"
+                                        BackgroundColor="#ff6b6b"
+                                        Margin="10">
+                        </CollectionView>
+
+                    </Grid>
+
+
+                    <Label Text="Yapılışı"
+                           FontSize="20"
+                           Margin="10,0,0,0"
+                           Grid.Row="4"/>
+
+                    <Label Text="{Binding TarifMetni}"
+                           HorizontalOptions="Center"
+                           Margin="10,0,0,50"
+                           Grid.Row="5"
+                                              />
+
+
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+
+       
+    </Grid>
+    
+</ContentPage>

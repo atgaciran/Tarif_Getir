@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarifGetir.Views.TarifGetirYemek"
+             Title="TarifGetirYemek">
+    
+    <Grid>
+        <!-- Arka plan resmi -->
+        <Image Source="arkaplan1.jpg" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+               Opacity="0.8"/>
+
+        <Grid RowDefinitions=".111*,.09*,.889*" >
+
+
+            <!-- Geri butonu -->
+            <ImageButton
+                Source="left.png"
+                HeightRequest="40"
+                WidthRequest="40"
+                Clicked="OnBackButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Margin="10"
+                Grid.Row="0"/>
+
+            <Label Text="Malzemeler"
+                   HorizontalOptions="Center"
+                   FontSize="25"
+                   Margin="0,15,0,10"
+                   Grid.Row="1"/>
+
+
+
+            <!-- İçerik -->
+            <ScrollView Grid.Row="2">
+                <StackLayout>
+
+                    
+
+                    <!-- Sebzeler başlığı -->
+                    <Button Text="Sebzeler"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,5,20,10"/>
+
+                    <!-- Sebzelerin listesi -->
+                    <StackLayout x:Name="VegetablesList" IsVisible="False" Margin="20,10">
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Domates" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Salatalık" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Marul" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Yeşil Biber" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                            <Button Text="Kırmızı Biber" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="0"/>
+                            <Button Text="Dolmalık Biber" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="1"/>
+                            <Button Text="Soğan" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="3" Grid.Column="0"/>
+                            <Button Text="Sarımsak" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="3" Grid.Column="1"/>
+                            <Button Text="Patates" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="4" Grid.Column="0"/>
+                            <Button Text="Patlıcan" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="4" Grid.Column="1"/>
+                            <Button Text="Mantar" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="5" Grid.Column="0"/>
+                            <Button Text="Havuç" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="5" Grid.Column="1"/>
+                            <Button Text="Kabak" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="6" Grid.Column="0"/>
+                            <Button Text="Ispanak" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="6" Grid.Column="1"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Süt ürünleri başlığı -->
+                    <Button Text="Süt Ürünleri"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,10"/>
+
+                    <!-- Süt ürünlerinin listesi -->
+                    <StackLayout x:Name="DairyList" IsVisible="False" Margin="20,10">
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Beyaz Peynir" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Kaşar Peyniri" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Süt" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Tereyağı" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                            <Button Text="Yoğurt" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="0"/>
+                            <Button Text="Krema" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="1"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Buğday ürünleri başlığı -->
+                    <Button Text="Buğday Ürünleri"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,10"/>
+
+                    <!-- Buğday ürünlerinin listesi -->
+                    <StackLayout x:Name="WheatList" IsVisible="False" Margin="20,10">
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Un" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Makarna" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Erişte" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Yufka" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Baklagiller başlığı -->
+                    <Button Text="Baklagiller"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,10"/>
+
+                    <!-- Baklagiller listesi -->
+                    <StackLayout x:Name="LegumesList" IsVisible="False" Margin="20,10">
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Nohut" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Bulgur" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Pirinç" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Kuru Fasulye" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                            <Button Text="Kırmızı Mercimek" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="0"/>
+                            <Button Text="Yeşil Mercimek" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="1"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Hayvansal Gıda başlığı -->
+                    <Button Text="Hayvansal Gıda"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,10"/>
+
+                    <!-- Hayvansal Gıda listesi -->
+                    <StackLayout x:Name="AnimalProductsList" IsVisible="False" Margin="20,10">
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Yumurta" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Kırmızı Et" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Tavuk" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Sucuk" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                            <Button Text="Salam" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="0"/>
+                            <Button Text="Sosis" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="1"/>
+                            <Button Text="Kıyma" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="3" Grid.Column="0"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Ek Ürünler başlığı -->
+                    <Button Text="Ek Ürünler"
+                FontSize="Medium"
+                BackgroundColor="#fc9ade"
+                TextColor="Black"
+                Clicked="OnCategoryClicked"
+                Margin="20,10"/>
+
+                    <!-- Ek Ürünler listesi -->
+                    <StackLayout x:Name="AdditionalProductsList" IsVisible="False" Margin="20,10" >
+                        <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" ColumnSpacing="7.5" RowSpacing="10">
+                            <Button Text="Maya" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text="Turşu" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text="Garnitür" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text="Salça" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="1" Grid.Column="1"/>
+                            <Button Text="Kabartma Tozu" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="0"/>
+                            <Button Text="Şeker" BackgroundColor="White" TextColor="Black" Clicked="OnIngredientClicked" Grid.Row="2" Grid.Column="1"/>
+                        </Grid>
+                    </StackLayout>
+
+
+                    <!-- Seçilen malzemelerin başlığı -->
+                    <Label Text="Seçilen Malzemeler"
+                            FontSize="20"
+                            Margin="20,10"
+                            TextColor="Black"
+        
+                            />
+
+                    <!-- Seçilen malzemelerin listesi -->
+                    <Label x:Name="SelectedIngredientsLabel"
+                            FontSize="18"
+                            BackgroundColor="White"
+                            Margin="20,0,20,0"/>
+
+
+                    <!-- Tarif Ara butonu -->
+                    <Button Text="Tarif Ara"
+                        FontSize="Medium"
+                        BackgroundColor="#e079c1"
+                        Margin="20,20"
+                        TextColor="Black"
+                        Clicked="OnSearchRecipesClicked"/>
+                    
+                    
+
+                   
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>
