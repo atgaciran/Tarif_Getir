@@ -1,3 +1,5 @@
+# BM102 Proje Tarif Getir
+
 BM102 Bilgisayar Programlama 2 dersinin Proje Ödevi için tasarlanan Tarif Getir uygulamasının reposudur.
 
 Gazi Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği bölüm dersi olan BM102 Bilgisayar Programlama dersinde 2024 Bahar dönemi kapsamında verilmiş proje ödevimizdir. Projemiz bir tarif öneri uygulamasıdır. Bu projede nesne yönelimli bir dil olan XAML ve C# yazılım dili tabanlı .NET MAUI uygulaması ve veritabanı için de SQLITE kullanılmıştır.
